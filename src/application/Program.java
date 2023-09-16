@@ -43,6 +43,12 @@ public class Program {
 		Account acc7 = new BusinessAccount(1010, "Wesley", 1000.0, 0.0);
 		acc7.withdraw(200.0);
 		System.out.println(acc7.getBalance());
+		
+		Account acc8 = new Account(1111, "Zéca", 5000.0);
+		acc8.withdraw(200);
+		System.out.println(acc8.getHolder());
+		System.out.println(acc8.getNumber());
+		System.out.println(acc8.getBalance());
 
 	}
 
