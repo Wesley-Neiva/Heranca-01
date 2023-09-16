@@ -49,6 +49,8 @@ public class Program {
 		System.out.println(acc8.getHolder());
 		System.out.println(acc8.getNumber());
 		System.out.println(acc8.getBalance());
+		System.out.println(acc8.getNumber());
+		System.out.println(acc4.getLoanLimit());
 
 	}
 
